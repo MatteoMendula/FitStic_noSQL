@@ -6,3 +6,6 @@ We will cover together the main differences if compared to SQL relational approa
 - Neo4J
 - MongoDB
 - Redis
+
+For any question, observation or advice, please do not esitate to contact me at matteo.mendula@unibo.it
+Keep it up
