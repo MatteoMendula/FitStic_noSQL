@@ -6,7 +6,7 @@ It doesn't matter if you join our workshop live or you prefer to do at your own 
 
 - Materials used during presentations
 - Hands-on exercises
-- [Workshop video](https://www.youtube.com/watch?v=1494eJLRKiU)
+- [Workshop video](https://www.youtube.com/watch?v=YjYWsN1vek8&list=PL2g2h-wyI4SqCdxdiyi8enEyWvACcUa9R)
 - [Discord chat](https://dtsx.io/discord)
 - [Questions and Answers](https://community.datastax.com/)
 
