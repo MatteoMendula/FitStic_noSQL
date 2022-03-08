@@ -1,0 +1,14 @@
+{
+  "name": "2.-neo4j",
+  "version": "1.0.0",
+  "description": "material taken from https://neo4j.com/developer/get-started/",
+  "main": "driver_test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "neo4j-driver": "^4.4.3"
+  }
+}
