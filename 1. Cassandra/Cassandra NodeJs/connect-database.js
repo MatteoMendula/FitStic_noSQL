@@ -3,7 +3,7 @@ const { Client } = require("cassandra-driver");
 async function run() {
     const client = new Client({
       cloud: {
-        secureConnectBundle: "./secure-connect-testcassandra.zip",
+        secureConnectBundle: "./secure-connect-databaseonce.zip",
       },
       credentials: {
         username: "OHhXyNaniDEJbNpOjUOytoXg",
@@ -15,7 +15,7 @@ async function run() {
   
     // Execute a query
     // const rs = await client.execute("SELECT * FROM system.local");
-    let rs = await client.execute('USE "TestCassandraKeySpace"');
+    let rs = await client.execute('USE "DatabaseOnce_keyspace"');
     rs = await client.execute('SELECT * FROM users;');
     console.log(`Your cluster returned ${JSON.stringify(rs)} row(s)`);
   
