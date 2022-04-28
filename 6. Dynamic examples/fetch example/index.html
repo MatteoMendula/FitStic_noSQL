@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <div id="lavatrice">loading</div>
+        <script>
+            async function getData(){
+                var a = await fetch("http://localhost:8080/get_data")
+                var b = await a.json();
+                document.getElementById("lavatrice").innerHTML = b;
+            }
+            getData();
+        </script>
+    </body>
+</html>
